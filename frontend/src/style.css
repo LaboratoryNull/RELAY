@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+
+:root {
+    font-family: "Nunito", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #d9dde7;
+    background: var(--bg, #0c0e12);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+button, input { font: inherit; }
+button { color: inherit; }
+button:focus-visible, input:focus-visible { outline: 1px solid #57d89a; outline-offset: -1px; }
+::selection { background: rgba(87, 216, 154, .28); }
